@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +15,13 @@
 	<br>
 	<button type="submit">Login</button>
 </form>
+<?php
+if (isset($_SESSION['id'])) {
+	echo $_SESSION['id'];
+}else {
+	echo "You are not logged in";
+}
+?>
 <br>
 <br>
 <br>
@@ -28,6 +38,13 @@
 	<input type="password" name="password" placeholder="Password">
 	<br>
 	<button type="submit">Sign up</button>
+</form>
+<br>
+<br>
+<br>
+
+<form action="logout.php">
+	<button type="submit">Logout</button>
 </form>
 
 </body>

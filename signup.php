@@ -1,4 +1,5 @@
 <?php
+session_start();
 //Get the Database Connection
 include 'db.php';
 //Capture The Data
