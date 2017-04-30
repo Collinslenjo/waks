@@ -5,6 +5,17 @@
 </head>
 <body>
 
+<form action="login.php" method="POST">
+	<input type="email" name="email" placeholder="Email">
+	<br>
+	<input type="password" name="password" placeholder="Password">
+	<br>
+	<button type="submit">Login</button>
+</form>
+<br>
+<br>
+<br>
+
 <form action="signup.php" method="POST">
 	<input type="text" name="first" placeholder="First Name">
 	<br>
