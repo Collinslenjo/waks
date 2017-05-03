@@ -5,7 +5,7 @@ include 'db.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Products</title>
+<title>Products Page</title>
 </head>
 <body>
 
